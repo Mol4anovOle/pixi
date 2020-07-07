@@ -6,15 +6,19 @@ var gravity = 4;
 var figuresAmount = -1;
 var figure = [];
 $(document).mousemove(function(e){
-    var X = e.pageX; // положения по оси X
-    var Y = e.pageY; // положения по оси Y
-    console.log("X: " + X + " Y: " + Y); // вывод результата в консоль
+    var X = e.pageX;
+    var Y = e.pageY;
+    console.log("X: " + X + " Y: " + Y);
 });
 var model = {
     createCanvas: function() {
         app = new PIXI.Application(width, height);
         document.getElementById('game-area').appendChild(app.view);
+        app.view.interactive = true;
+        app.view.buttonMode = true;
+        app.view.on('pointerdown', controller.addFigure);
     },
+
     drawFigure: function(){
         rand = Math.floor(Math.random() * colors.length);
         var radius=50;
@@ -93,7 +97,7 @@ var view = {
         model.drawFigure();
 
 
-        setInterval(model.drawFigure, 500);
+        // setInterval(model.drawFigure, 500);
 
         app.ticker.add(function() {
             for (var i = 0; i < figuresAmount; i++) {
@@ -113,7 +117,7 @@ var controller = {
 
     },
     addFigure: function(){
-
+        drawFigure();
     },
 
 }
