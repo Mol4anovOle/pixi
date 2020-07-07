@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7d809c1b-a2b4-4a03-b22c-8dbe6293edaf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pixi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/accessibility/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/accessibility/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/accessibility/dist/accessibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/accessibility/dist/accessibility.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/accessibility/dist/accessibility.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/accessibility/dist/accessibility.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/accessibility/lib/accessibility.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/accessibility/lib/accessibility.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/accessibility/lib/accessibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/accessibility/lib/accessibility.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/accessibility/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/app/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/app/dist/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/app/dist/app.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/app/dist/app.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/app/dist/app.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/app/lib/app.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/app/lib/app.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/app/lib/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/app/lib/app.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/constants/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/constants/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/constants/dist/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/constants/dist/constants.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/constants/dist/constants.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/constants/dist/constants.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/constants/lib/constants.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/constants/lib/constants.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/constants/lib/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/constants/lib/constants.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/constants/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/core/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/core/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/core/dist/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/core/dist/core.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/core/dist/core.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/core/dist/core.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/core/lib/core.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/core/lib/core.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/core/lib/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/core/lib/core.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/core/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/display/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/display/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/display/dist/display.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/display/dist/display.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/display/dist/display.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/display/dist/display.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/display/lib/display.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/display/lib/display.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/display/lib/display.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/display/lib/display.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/display/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/extract/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/extract/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/extract/dist/extract.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/extract/dist/extract.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/extract/dist/extract.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/extract/dist/extract.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/extract/lib/extract.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/extract/lib/extract.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/extract/lib/extract.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/extract/lib/extract.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/extract/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-alpha/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-alpha/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-alpha/dist/filter-alpha.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-alpha/dist/filter-alpha.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-alpha/dist/filter-alpha.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-alpha/dist/filter-alpha.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-alpha/lib/filter-alpha.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-alpha/lib/filter-alpha.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-alpha/lib/filter-alpha.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-alpha/lib/filter-alpha.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-alpha/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-blur/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-blur/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-blur/dist/filter-blur.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-blur/dist/filter-blur.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-blur/dist/filter-blur.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-blur/dist/filter-blur.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-blur/lib/filter-blur.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-blur/lib/filter-blur.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-blur/lib/filter-blur.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-blur/lib/filter-blur.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-blur/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-color-matrix/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-color-matrix/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-color-matrix/dist/filter-color-matrix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-color-matrix/dist/filter-color-matrix.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-color-matrix/dist/filter-color-matrix.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-color-matrix/dist/filter-color-matrix.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-color-matrix/lib/filter-color-matrix.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-color-matrix/lib/filter-color-matrix.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-color-matrix/lib/filter-color-matrix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-color-matrix/lib/filter-color-matrix.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-color-matrix/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-displacement/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-displacement/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-displacement/dist/filter-displacement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-displacement/dist/filter-displacement.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-displacement/dist/filter-displacement.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-displacement/dist/filter-displacement.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-displacement/lib/filter-displacement.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-displacement/lib/filter-displacement.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-displacement/lib/filter-displacement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-displacement/lib/filter-displacement.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-displacement/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-fxaa/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-fxaa/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-fxaa/dist/filter-fxaa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-fxaa/dist/filter-fxaa.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-fxaa/dist/filter-fxaa.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-fxaa/dist/filter-fxaa.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-fxaa/lib/filter-fxaa.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-fxaa/lib/filter-fxaa.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-fxaa/lib/filter-fxaa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-fxaa/lib/filter-fxaa.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-fxaa/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-noise/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-noise/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-noise/dist/filter-noise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-noise/dist/filter-noise.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-noise/dist/filter-noise.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-noise/dist/filter-noise.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-noise/lib/filter-noise.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-noise/lib/filter-noise.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-noise/lib/filter-noise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-noise/lib/filter-noise.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/filter-noise/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/graphics/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/graphics/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/graphics/dist/graphics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/graphics/dist/graphics.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/graphics/dist/graphics.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/graphics/dist/graphics.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/graphics/lib/graphics.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/graphics/lib/graphics.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/graphics/lib/graphics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/graphics/lib/graphics.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/graphics/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/interaction/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/interaction/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/interaction/dist/interaction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/interaction/dist/interaction.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/interaction/dist/interaction.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/interaction/dist/interaction.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/interaction/lib/interaction.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/interaction/lib/interaction.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/interaction/lib/interaction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/interaction/lib/interaction.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/interaction/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/loaders/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/loaders/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/loaders/dist/loaders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/loaders/dist/loaders.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/loaders/dist/loaders.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/loaders/dist/loaders.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/loaders/lib/loaders.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/loaders/lib/loaders.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/loaders/lib/loaders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/loaders/lib/loaders.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/loaders/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/math/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/math/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/math/dist/math.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/math/dist/math.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/math/dist/math.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/math/dist/math.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/math/lib/math.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/math/lib/math.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/math/lib/math.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/math/lib/math.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/math/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mesh-extras/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mesh-extras/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mesh-extras/dist/mesh-extras.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mesh-extras/dist/mesh-extras.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mesh-extras/dist/mesh-extras.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mesh-extras/dist/mesh-extras.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mesh-extras/lib/mesh-extras.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mesh-extras/lib/mesh-extras.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mesh-extras/lib/mesh-extras.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mesh-extras/lib/mesh-extras.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mesh-extras/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mesh/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mesh/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mesh/dist/mesh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mesh/dist/mesh.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mesh/dist/mesh.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mesh/dist/mesh.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mesh/lib/mesh.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mesh/lib/mesh.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mesh/lib/mesh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mesh/lib/mesh.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mesh/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-cache-as-bitmap/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-cache-as-bitmap/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-cache-as-bitmap/dist/mixin-cache-as-bitmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-cache-as-bitmap/dist/mixin-cache-as-bitmap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-cache-as-bitmap/dist/mixin-cache-as-bitmap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-cache-as-bitmap/dist/mixin-cache-as-bitmap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-cache-as-bitmap/lib/mixin-cache-as-bitmap.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-cache-as-bitmap/lib/mixin-cache-as-bitmap.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-cache-as-bitmap/lib/mixin-cache-as-bitmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-cache-as-bitmap/lib/mixin-cache-as-bitmap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-cache-as-bitmap/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-get-child-by-name/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-get-child-by-name/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-get-child-by-name/dist/mixin-get-child-by-name.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-get-child-by-name/dist/mixin-get-child-by-name.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-get-child-by-name/dist/mixin-get-child-by-name.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-get-child-by-name/dist/mixin-get-child-by-name.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-get-child-by-name/lib/mixin-get-child-by-name.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-get-child-by-name/lib/mixin-get-child-by-name.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-get-child-by-name/lib/mixin-get-child-by-name.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-get-child-by-name/lib/mixin-get-child-by-name.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-get-child-by-name/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-get-global-position/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-get-global-position/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-get-global-position/dist/mixin-get-global-position.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-get-global-position/dist/mixin-get-global-position.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-get-global-position/dist/mixin-get-global-position.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-get-global-position/dist/mixin-get-global-position.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-get-global-position/lib/mixin-get-global-position.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-get-global-position/lib/mixin-get-global-position.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-get-global-position/lib/mixin-get-global-position.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-get-global-position/lib/mixin-get-global-position.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/mixin-get-global-position/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/particles/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/particles/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/particles/dist/particles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/particles/dist/particles.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/particles/dist/particles.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/particles/dist/particles.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/particles/lib/particles.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/particles/lib/particles.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/particles/lib/particles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/particles/lib/particles.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/particles/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/polyfill/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/polyfill/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/polyfill/dist/polyfill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/polyfill/dist/polyfill.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/polyfill/dist/polyfill.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/polyfill/dist/polyfill.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/polyfill/lib/polyfill.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/polyfill/lib/polyfill.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/polyfill/lib/polyfill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/polyfill/lib/polyfill.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/polyfill/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/prepare/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/prepare/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/prepare/dist/prepare.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/prepare/dist/prepare.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/prepare/dist/prepare.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/prepare/dist/prepare.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/prepare/lib/prepare.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/prepare/lib/prepare.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/prepare/lib/prepare.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/prepare/lib/prepare.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/prepare/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/runner/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/runner/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/runner/dist/runner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/runner/dist/runner.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/runner/dist/runner.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/runner/dist/runner.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/runner/lib/runner.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/runner/lib/runner.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/runner/lib/runner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/runner/lib/runner.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/runner/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/settings/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/settings/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/settings/dist/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/settings/dist/settings.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/settings/dist/settings.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/settings/dist/settings.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/settings/lib/settings.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/settings/lib/settings.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/settings/lib/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/settings/lib/settings.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/settings/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite-animated/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite-animated/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite-animated/dist/sprite-animated.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite-animated/dist/sprite-animated.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite-animated/dist/sprite-animated.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite-animated/dist/sprite-animated.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite-animated/lib/sprite-animated.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite-animated/lib/sprite-animated.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite-animated/lib/sprite-animated.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite-animated/lib/sprite-animated.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite-animated/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite-tiling/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite-tiling/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite-tiling/dist/sprite-tiling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite-tiling/dist/sprite-tiling.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite-tiling/dist/sprite-tiling.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite-tiling/dist/sprite-tiling.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite-tiling/lib/sprite-tiling.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite-tiling/lib/sprite-tiling.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite-tiling/lib/sprite-tiling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite-tiling/lib/sprite-tiling.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite-tiling/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite/dist/sprite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite/dist/sprite.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite/dist/sprite.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite/dist/sprite.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite/lib/sprite.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite/lib/sprite.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite/lib/sprite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite/lib/sprite.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/sprite/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/spritesheet/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/spritesheet/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/spritesheet/dist/spritesheet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/spritesheet/dist/spritesheet.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/spritesheet/dist/spritesheet.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/spritesheet/dist/spritesheet.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/spritesheet/lib/spritesheet.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/spritesheet/lib/spritesheet.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/spritesheet/lib/spritesheet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/spritesheet/lib/spritesheet.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/spritesheet/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/text-bitmap/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/text-bitmap/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/text-bitmap/dist/text-bitmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/text-bitmap/dist/text-bitmap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/text-bitmap/dist/text-bitmap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/text-bitmap/dist/text-bitmap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/text-bitmap/lib/text-bitmap.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/text-bitmap/lib/text-bitmap.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/text-bitmap/lib/text-bitmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/text-bitmap/lib/text-bitmap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/text-bitmap/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/text/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/text/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/text/dist/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/text/dist/text.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/text/dist/text.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/text/dist/text.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/text/lib/text.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/text/lib/text.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/text/lib/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/text/lib/text.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/text/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/ticker/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/ticker/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/ticker/dist/ticker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/ticker/dist/ticker.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/ticker/dist/ticker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/ticker/dist/ticker.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/ticker/lib/ticker.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/ticker/lib/ticker.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/ticker/lib/ticker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/ticker/lib/ticker.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/ticker/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/utils/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/utils/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/utils/dist/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/utils/dist/utils.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/utils/dist/utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/utils/dist/utils.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/utils/lib/utils.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/utils/lib/utils.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/utils/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/utils/lib/utils.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@pixi/utils/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/earcut/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/earcut/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/earcut/dist/earcut.dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/earcut/dist/earcut.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/earcut/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/earcut/src/earcut.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/es6-promise-polyfill/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/es6-promise-polyfill/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/es6-promise-polyfill/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/es6-promise-polyfill/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/es6-promise-polyfill/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/es6-promise-polyfill/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/es6-promise-polyfill/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/es6-promise-polyfill/promise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/es6-promise-polyfill/promise.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/eventemitter3/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/eventemitter3/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/eventemitter3/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/eventemitter3/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/eventemitter3/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/eventemitter3/umd/eventemitter3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/eventemitter3/umd/eventemitter3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/eventemitter3/umd/eventemitter3.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/.dependabot/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/.github/workflows/pull_request.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/.github/workflows/release.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/CONTRIBUTORS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/cjs/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/cjs/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/cjs/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/cjs/isMobile.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/cjs/isMobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/cjs/isMobile.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/dist/isMobile.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/esm/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/esm/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/esm/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/esm/isMobile.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/esm/isMobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/esm/isMobile.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/prettier.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/src/__tests__/amazon.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/src/__tests__/android.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/src/__tests__/apple.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/src/__tests__/browser.e2e.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/src/__tests__/desktop.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/src/__tests__/other.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/src/__tests__/windows.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/src/index.browser.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/src/isMobile.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/types/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/types/index.d.ts.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/types/isMobile.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ismobilejs/types/isMobile.d.ts.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mini-signals/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mini-signals/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mini-signals/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mini-signals/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mini-signals/browser.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mini-signals/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mini-signals/lib/mini-signals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mini-signals/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mini-signals/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mini-signals/src/mini-signals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mini-signals/typings/mini-signals.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/object-assign/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/object-assign/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/object-assign/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/object-assign/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/parse-uri/.bumpedrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/parse-uri/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/parse-uri/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/parse-uri/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/parse-uri/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/parse-uri/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/parse-uri/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/parse-uri/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/parse-uri/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/parse-uri/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/parse-uri/dist/parse-uri.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/parse-uri/gulpfile.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/parse-uri/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/parse-uri/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/parse-uri/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/parse-uri/test/mocha.opts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pixi.js/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pixi.js/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pixi.js/dist/pixi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pixi.js/dist/pixi.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pixi.js/dist/pixi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pixi.js/dist/pixi.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pixi.js/lib/pixi.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pixi.js/lib/pixi.es.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pixi.js/lib/pixi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pixi.js/lib/pixi.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pixi.js/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pixi.js/pixi.js.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/punycode/LICENSE-MIT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/punycode/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/punycode/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/punycode/punycode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/querystring/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/querystring/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/querystring/License.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/querystring/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/querystring/decode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/querystring/encode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/querystring/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/querystring/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/querystring/test/common-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/querystring/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/querystring/test/tap-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/resource-loader/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/resource-loader/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/resource-loader/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/resource-loader/dist/resource-loader.cjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/resource-loader/dist/resource-loader.cjs.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/resource-loader/dist/resource-loader.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/resource-loader/dist/resource-loader.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/resource-loader/dist/resource-loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/resource-loader/dist/resource-loader.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/resource-loader/dist/resource-loader.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/resource-loader/dist/resource-loader.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/resource-loader/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/resource-loader/typings/mini-signals.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/resource-loader/typings/resource-loader.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/url/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/url/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/url/.zuul.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/url/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/url/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/url/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/url/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/url/url.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/url/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1eLSzDZxl6Z6DaMPru3z0VS2aSF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d809c1b-a2b4-4a03-b22c-8dbe6293edaf" name="Default Changelist" comment="" />
+      <created>1594099639708</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594099639708</updated>
+      <workItem from="1594099641097" duration="344000" />
+      <workItem from="1594115224216" duration="10247000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="657" y="256" key="run.anything.popup" timestamp="1594117697786">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="657" y="256" key="run.anything.popup/1920.0.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1594117697786" />
+    <state x="656" y="268" width="672" height="678" key="search.everywhere.popup" timestamp="1594117612158">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="656" y="268" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1594117612158" />
+  </component>
+</project>
