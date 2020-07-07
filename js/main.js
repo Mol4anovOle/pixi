@@ -5,12 +5,15 @@ var colors = [0xFFFF0B, 0xFF700B, 0x4286f4, 0x4286f4, 0xf441e8, 0x8dff6d, 0x41cc
 var gravity = 4;
 var figuresAmount = -1;
 var figure = [];
-
+$(document).mousemove(function(e){
+    var X = e.pageX; // положения по оси X
+    var Y = e.pageY; // положения по оси Y
+    console.log("X: " + X + " Y: " + Y); // вывод результата в консоль
+});
 var model = {
     createCanvas: function() {
         app = new PIXI.Application(width, height);
         document.getElementById('game-area').appendChild(app.view);
-
     },
     drawFigure: function(){
         rand = Math.floor(Math.random() * colors.length);
@@ -108,7 +111,11 @@ var controller = {
         this.clear();
         figure[this.num].live = false;
 
-    }
+    },
+    addFigure: function(){
+
+    },
+
 }
 
 view.loadGame();
