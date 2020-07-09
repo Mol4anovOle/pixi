@@ -10,8 +10,8 @@ body {
 
 #game-area {
     position: absolute;
-    left:30%;
-    top: 20%;
+    /*left:30%;*/
+    /*top: 20%;*/
     display: block;
     z-index: -9999;
     image-rendering: optimizeSpeed;
