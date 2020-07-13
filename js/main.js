@@ -70,7 +70,7 @@ var model = {
        var displayRect= new PIXI.Graphics();
         displayRect.lineStyle(0);
         displayRect.beginFill(0xFFFFFF);
-        displayRect.drawRect(1, 1, width+87, height+112);
+        displayRect.drawRect(1, 1, width+87, height+107);
         container.addChild(displayRect);
         // var SquareCount=(width+87)*( height+112);
         // console.log(SquareCount);

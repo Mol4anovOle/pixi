@@ -33,7 +33,7 @@ body {
 }
 .button_block {
     display: flex;
- left: 10%;
+
     position: absolute;
     top: 70%;
 }
