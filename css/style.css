@@ -8,6 +8,7 @@ body {
     height: 0px;
 }
 
+
 #game-area {
     position: absolute;
     /*left:30%;*/
@@ -19,4 +20,23 @@ body {
     image-rendering: -webkit-optimize-contrast;
     image-rendering: optimize-contrast;
     -ms-interpolation-mode: nearest-neighbor;
+}
+.information-area{
+    margin-top: 50px;
+    display: flex;
+    width: 50vw;
+    justify-content: space-around;
+}
+.information-area-count, .information-area-occupied{
+    border: 1px solid black;
+    padding: 5px;
+}
+.button_block {
+    display: flex;
+ left: 10%;
+    position: absolute;
+    top: 70%;
+}
+.counter{
+    margin: 30px;
 }

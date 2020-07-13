@@ -8,11 +8,27 @@
 <body>
 <h1>Pixi test</h1>
 <div class="container">
-    <div class="button_block left"></div>
+    <div class="information-area">
+        <div class="information-area-count:">Number of current shapes </div>
+        <div class="information-area-occupied:">Surface Area (px)</div>
+
+    </div>
     <div id="game-area">
 
     </div>
-    <div class="button_block bottom"></div>
+    <div class="button_block bottom">
+        <div class="counter shapes">
+            <button class="shapes_minus">-</button>
+            <input id="shapes" type="number" value="1">
+
+            <button class="shapes_plus">+</button>
+    </div>
+        <div class="counter gravity">
+            <button class="gravity_minus">-</button>
+            <input id="gravity" type="number" value="4">
+
+            <button class="gravity_plus">+</button>
+        </div>
 </div>
 
 
